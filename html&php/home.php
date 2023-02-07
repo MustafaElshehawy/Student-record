@@ -38,8 +38,8 @@
         header("location: home.php");
     }
     if(isset($_POST['del'])){
-        $insert ="delete from student where id ='$id'";
-        mysqli_query($con,$insert);
+        $delete ="delete from student where id ='$id'";
+        mysqli_query($con,$delete);
         header("location: home.php");
     }
     ?>
